@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3e4de;
+    border-bottom: solid gray;
+}
+
+.titulos {
+    font-family: Montserrat, sans-serif;
+}
+
+.nome {
+    font-size: 32px;
+}
+
+.profissao {
+    font-size: 14px;
+}
+
+.informacoesPrincipais {
+    padding: 1% 1% 1% 4%;
+    font-family: Helvetica;
+}
+
+.informacoes {
+    font-size: 16px;
+    text-align: left;
+}
+
+.contatos {
+    padding: 0;
+    margin-left: 50px;
+}
+
+img {
+    display: inline;
+    height: 200px;
+    padding: 1% 0% 1% 1%;
+    border-radius: 30%;
+}
+
+main {
+    font-family: Helvetica;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-direction: row-reverse;
+    border-bottom: solid gray;
+}
+
+.informacoesPrincipais {
+    display: inline-block;
+}
+
+.endereco {
+    display: inline-block;
+}
+
+.contatos {
+    display: inline-block;
+}
+
+
+.experienciasEducacao {
+    padding-left: 1%;
+    display: inline;
+}
+
+.apresentacaoHabilidades {
+    padding-right: 1%;
+    border-right: solid gray;
+    width: 20%;
+    display: inline;
+}
+
+#profissao{
+    font-size: 16px;
+}
+
+#Titulos{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+span{
+    font-size: 14px;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+    color: gray;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+    gap: 30px;
+}
+
+#logo{
+    height: 100px;
+}

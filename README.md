@@ -1,9 +1,9 @@
 # Trabalho Prático - Semanas 3 e 4
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Lucas Gomes Esteves Da Silva
+- Matricula: 927624
 
 ## Print da tela da página criada (Curriculum Vitae)
 
-`<Coloque aqui o print da tela do Curriculum Vitae>`
+![Visualização da Página](VisualizacaoPagina.png)
