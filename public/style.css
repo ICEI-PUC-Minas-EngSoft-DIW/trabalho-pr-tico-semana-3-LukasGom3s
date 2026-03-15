@@ -1,117 +1,125 @@
-body {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+*{
+    box-sizing: border-box;
+    /* O width e height definem o tamanho total do elemento, 
+    incluindo bordas e preenchimentos. 
+    O conteúdo interno diminui para acomodar a borda.*/
     margin: 0;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #f3e4de;
-    border-bottom: solid gray;
-}
-
-.titulos {
-    font-family: Montserrat, sans-serif;
-}
-
-.nome {
-    font-size: 32px;
-}
-
-.profissao {
-    font-size: 14px;
-}
-
-.informacoesPrincipais {
-    padding: 1% 1% 1% 4%;
-    font-family: Helvetica;
-}
-
-.informacoes {
-    font-size: 16px;
-    text-align: left;
-}
-
-.contatos {
+    /* Removendo as margins padrão de alguns elementos para
+    evitar confusão com tamanhos*/
     padding: 0;
-    margin-left: 50px;
+    /* Removendo os paddings padrão de alguns elementos para
+    evitar confusão com tamanhos*/
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-img {
-    display: inline;
-    height: 200px;
-    padding: 1% 0% 1% 1%;
-    border-radius: 30%;
+a:visited {
+    color: black;                /* Mantém a cor mesmo após clicar */
 }
-
-main {
-    font-family: Helvetica;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    flex-direction: row-reverse;
-    border-bottom: solid gray;
-}
-
-.informacoesPrincipais {
-    display: inline-block;
-}
-
-.endereco {
-    display: inline-block;
-}
-
-.contatos {
-    display: inline-block;
-}
-
-
-.experienciasEducacao {
-    padding-left: 1%;
-    display: inline;
-}
-
-.apresentacaoHabilidades {
-    padding-right: 1%;
-    border-right: solid gray;
-    width: 20%;
-    display: inline;
-}
-
-#profissao{
-    font-size: 16px;
-}
-
-#Titulos{
-    text-decoration: underline;
-    font-size: 30px;
-}
-
 span{
-    font-size: 14px;
     font-style: italic;
-}
-
-h2{
-    font-size: 20px;
-}
-
-h3{
     font-size: 15px;
     color: gray;
 }
 
-footer{
+#Titulos{
+    text-decoration: underline;
+}
+body{
+    margin: 5px;
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 0.5%;
-    gap: 30px;
+    justify-items: center;
 }
 
-#logo{
-    height: 100px;
+#paginaTotal{
+    width: 70%;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 0.4%;
+    background-color: white;
+}
+
+#logos{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+#um,#dois{
+    display: inline-block;
+}
+
+#um{
+    width: 40%;
+    border-right: solid gray;
+}
+#dois{
+    width: 60%;
+}
+
+#informacoes{
+    display: flex;
+    gap: 5%;
+    padding-top: 2%;
+}
+
+#tres,#quatro,#cinco,#seis{
+    margin: 0%;
+}
+
+#tres,#cinco{
+    height: 250px;
+    background-color: #f3e4de;
+}
+
+#tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotoPerfil{
+    border-radius: 20%;
+    border: solid white;
+}
+
+#quatro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cinco{
+    padding: 1%;
+}
+
+#seis{
+    padding: 5% 0 5% 0;
+}
+
+#Experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+#Educacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
